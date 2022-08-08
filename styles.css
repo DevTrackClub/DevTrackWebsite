@@ -1,0 +1,420 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Finlandica:ital@1&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+ @property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+:root {
+  --card-height: 300px;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+ .card {
+  background: #191c29;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  display: block;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-left: 12px;
+  color: rgba(216, 228, 233, 0);
+  cursor: pointer;
+  
+}
+
+.card:hover {
+  color: rgb(88 199 250 / 100%);
+  transition: color 1s;
+}
+.card:hover:before, .card:hover:after {
+  animation: none;
+  opacity: 0;
+}
+
+
+.card::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate)
+    , #5ddcff, #3c67e3 43%, #4e00c2);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.8);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate)
+    , #5ddcff, #3c67e3 43%, #4e00c2);
+    opacity: 1;
+  transition: opacity .5s;
+  animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+.card:hover .track-p{
+  visibility:hidden ;
+ 
+}
+.track-p {
+  position:absolute;
+  display: inline;
+  
+  bottom:30%;
+  top: 40%;
+  color: #c2c8dd;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  
+
+  margin: auto;
+  text-align: center;
+ 
+}
+.trackh1{
+  color: #fff;
+ 
+    font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+
+}
+
+
+
+/* ============================================================================================ */
+
+
+
+
+ /* SRINIDHI CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium';
+}
+ body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+ }
+ .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+ }
+ .container .box{
+    position: relative; 
+    width: 520px;
+    height: 700px;
+    color: #fff;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    transition: 0.5s;    
+ }
+ .container .box:hover
+ {
+        transform: translateY(-15px);
+ }
+ .container .box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#be93d4,#710193);
+ }
+ .container .box::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#be93d4,#710193);
+    filter: blur(15px);
+ }
+ .container .box:nth-child(2)::before,
+ .container .box:nth-child(2)::after
+ {
+    background: linear-gradient(315deg,#be93d4,#8b008b);
+ }
+ .container .box span{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background: rgba(0,0,0,0.6);
+    z-index: 2;
+ }
+ container .box span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    pointer-events:none;
+ }
+ .container .box .content
+ {
+    position: relative;
+    z-index: 10;
+    padding: 20px 70px;
+    align-content: center;
+ }
+ .content .box .content h2
+ {
+    font-size: 4em;
+    color: #fff;
+    margin-bottom: 50px;
+    padding-top: 10px;
+ }
+ .container .box .content p{
+    font-size: 1.1em;
+    color: fff;
+    margin-bottom: 30px;
+    line-height: 1.4em;
+    word-wrap: normal;
+    font-family: Georgia;
+ }
+ /* ==================================================CSS /
+ /* SONAL CSS */
+ footer{
+     background-color: #111;
+ }
+ .container-fluid{
+  font-family: 'Baloo Bhai 2', cursive;
+  background-color:  #111;
+  width: 40%;
+   margin: 0 auto;
+   margin-top: 100px;
+ }
+ p{
+   color: white; /*This is the color of the answers and can change when wanted*/
+ }
+ .container-fluid h1{
+   color: #9D00FF; /*This is the color of the heading FAQs and can change when wanted*/
+   position: relative;
+   width: 23rem;
+ }
+ /* This is the dash which comes under h2 (add if needed)*/
+ /*.container-fluid h1::after{
+   content: " ";
+   position: absolute;
+   bottom: 0;
+   right: 300px;
+   width:67px;
+   height: 2px;
+   background-color: #9D00FF;
+ }*/
+ .accordion{
+   width:100%;
+   border:2px solid white; /*bordercolor is white of the questions*/
+   cursor: pointer;
+   padding:3px;
+   background-color: rgba(193, 210, 236, 0.13);
+   border-radius: 50px;
+   display: flex;
+   margin: 10px 0;
+   align-items: center;
+   text-align: left;
+ }
+ .accordion .icon{
+   margin: 0 15px 0 0;
+   width: 50px; 
+   border-radius: 50%;
+   float: left;
+   background:  8px 5px white;
+ }
+ .accordion .active .icon{
+   background:8px 5px black ;
+ }
+ .accordion .icon:after {
+   content: '\002B'; /*+ sign*/
+   font-weight: 1000;
+   font-size: 30px;
+   margin-left: 15px;/*placement of icon inside the white circle*/
+   transition: all .5s ease;
+   color: black;
+ }
+ .active .icon:after {
+   content: '\2212';
+   font-size: 30px;
+   font-weight: bolder;
+   color: black;
+ }
+ 
+ .accordion h5{
+   font-size: 22px; /*font size of questions*/
+   margin: 0;
+   padding: 3px 0 0 0;
+   font-weight: normal;
+   color: white; /*Color of questions*/
+ }
+ .panel{
+   padding: 0 15px;
+   border-left: 1px solid white;
+   margin-left: 25px;
+   font-size: 14px;
+   text-align: justify;
+   overflow: hidden;
+   max-height: 0; /*height of answers*/
+   transition: all .5s ease-in;
+ 
+ }
+   .so {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+   }
+   .so .wrapper{
+     padding-left: 625px;
+     overflow:auto;
+     background-color:  #111;
+     padding-top: 50px;
+     padding-bottom: 50px;
+   }
+   .wrapper .button{
+     display: inline-block;
+     height: 60px;
+     width: 60px;
+     float: left;
+     margin: 0 5px;
+     overflow: hidden;
+     background:rgba(255, 255, 255, .15);
+     backdrop-filter: saturate(180%) blur(10px);
+     border-radius: 50px;
+     cursor: pointer;
+     box-shadow: 0px 10px 10px rgba(9, 9, 9, 0.1);
+     transition: all 0.3s ease-out;
+   }
+   .wrapper .button:hover{
+     width: 200px;
+   }
+   .wrapper .button .icon{
+     display: inline-block;
+     height: 60px;
+     width: 60px;
+     text-align: center;
+     border-radius: 50px;
+     box-sizing: border-box;
+     line-height: 60px;
+     transition: all 0.3s ease-out;
+     
+   }
+   .wrapper .button:nth-child(1):hover .icon{
+     background: #4267B2;
+   }
+   .wrapper .button:nth-child(2):hover .icon{
+     background: #1DA1F2;
+   }
+   .wrapper .button:nth-child(3):hover .icon{
+     background: #E1306C;
+   }
+   .wrapper .button:nth-child(4):hover .icon{
+     background: #A020F0;
+   }
+   
+   .so .wrapper .button .icon i{
+     font-size: 25px;
+     line-height: 60px;
+     transition: all 0.3s ease-out;
+   }
+   .wrapper .button:hover .icon i{
+     color: white;
+   }
+   .so .wrapper .button span{
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 60px;
+     margin-left: 10px;
+     transition: all 0.3s ease-out;
+   }
+   .so .wrapper .button:nth-child(1) span{
+     color: #4267B2;
+   }
+   .wrapper .button:nth-child(2) span{
+     color: #1DA1F2;
+   }
+   .wrapper .button:nth-child(3) span{
+     color: #E1306C;
+   }
+   .wrapper .button:nth-child(4) span{
+     color: #A020F0;
+   }
+    #fb
+   {
+       color: #006fff;
+       text-shadow: 0 0 30px #006fff;
+   }
+   #ig
+   {
+       color: #ff5f40;
+       text-shadow: 0 0 30px #ff5f40;
+   }
+   #tw
+   {
+       color: #00acff;
+       text-shadow: 0 0 30px #00acff;
+   }
+   #di
+   {
+       color: #9D00FF;
+       text-shadow: 0 0 30px #9D00FF;
+   }
+
+
+
+
+
+
+
+
