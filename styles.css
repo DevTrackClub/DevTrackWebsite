@@ -472,7 +472,14 @@ SRINIDHI CSS
      transition: all .5s ease-in;
    
    }
-     .so {
+  .containersh{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+   }
+
+  .so {
        margin: 0;
        padding: 0;
        box-sizing: border-box;
