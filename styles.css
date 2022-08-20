@@ -173,7 +173,19 @@ nav {
     font-size: 15px;
 }
 
-SRINIDHI CSS
+@media only screen and (max-width: 600px) {
+  .container .box .content{
+    font-size: 0.85em;
+    color: fff;
+    margin-bottom: 30px;
+    line-height: 1em;
+    word-wrap: normal;
+    font-family: Georgia;
+ }
+  
+}
+
+/* SRINIDHI CSS */
 *{
     margin: 0;
     padding: 0;
