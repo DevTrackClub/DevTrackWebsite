@@ -173,15 +173,38 @@ nav {
     font-size: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+  
+  .content{
+    padding: 0;
+
+  }
+ .container .box{
+
+  width: 520px;
+  height: 900px;
+  color: rgb(88, 6, 6);
+   
+}
   .container .box .content{
     font-size: 0.85em;
     color: fff;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     line-height: 1em;
     word-wrap: normal;
     font-family: Georgia;
+     position: relative;
+   z-index: 10;
+   padding: 10px 0px;
+   align-content: center;
  }
+ .container .box .content h2{
+  font-size: 0.85em;
+
+}
+
+
+
   
 }
 
@@ -271,7 +294,7 @@ nav {
  {
     position: relative;
     z-index: 10;
-    padding: 20px 70px;
+    padding: 20px 40px;
     align-content: center;
  }
  .content .box .content h2
