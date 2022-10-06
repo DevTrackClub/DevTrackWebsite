@@ -56,74 +56,10 @@ Congratulation! You just made your first pull request and if it gets merged, you
 Kudos to all our contributors. This wouldn't be be possible without you guys. 🎉👏
 
 <!-- readme: contributors -start -->
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/DevTrackClub">
-            <img src="https://avatars.githubusercontent.com/u/111211012?v=4" width="100;" alt="DevTrackClub"/>
-            <br />
-            <sub><b>< Dev / Track ></b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/adnandelta">
-            <img src="https://avatars.githubusercontent.com/u/38246407?v=4" width="100;" alt="adnan"/>
-            <br />
-            <sub><b>D3LTAxx</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Sonaljothylingam">
-            <img src="https://avatars.githubusercontent.com/u/90455409?v=4" width="100;" alt="Sonaljothylingam"/>
-            <br />
-            <sub><b>Sonal.J</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Rajshekar723">
-            <img src="https://avatars.githubusercontent.com/u/82643732?v=4" width="100;" alt="Rajshekar723"/>
-            <br />
-            <sub><b>Rajshekar723</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Srinidhi182">
-            <img src="https://avatars.githubusercontent.com/u/92366628?v=4" width="100;" alt="Srinidhi"/>
-            <br />
-            <sub><b>Srinidhi.R</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Mr-DJ">
-            <img src="https://avatars.githubusercontent.com/u/28898632?v=4" width="100;" alt="Samuel Jonathan"/>
-            <br />
-            <sub><b>Samuel Jonathan</b></sub>
-        </a>
-    </td>
-   
-</tr>
-<tr>
-<td align="center">
-        <a href="https://github.com/PGautam27">
-            <img src="https://avatars.githubusercontent.com/u/92343715?v=4" width="100;" alt="PGautam27"/>
-            <br />
-            <sub><b>P Gautam</b></sub>
-        </a>
-    </td>
- <td align="center">
-        <a href="https://github.com/Issac5693">
-            <img src="https://avatars.githubusercontent.com/u/88505266?v=4" width="100;" alt="Issac Martin"/>
-            <br />
-            <sub><b>Isaac Martin</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/muditchoudhary">
-            <img src="https://avatars.githubusercontent.com/u/74391865?v=4" width="100;" alt="Mudit Choudhary"/>
-            <br />
-            <sub><b>Mudit Choudhary</b></sub>
-        </a>
-    </td>
-</tr>
-</table>
+
+<!-- Using https://contrib.rocks here-->
+
+<a href="https://github.com/DevTrackClub/DevTrackWebsite/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DevTrackClub/DevTrackWebsite&columns=6" />
+</a>
 <!-- readme: contributors -end -->
