@@ -85,5 +85,12 @@ Kudos to all our contributors. This wouldn't be be possible without you guys. ðŸ
             <sub><b>Rajshekar723</b></sub>
         </a>
     </td>
+    <td align="center">
+        <a href="https://github.com/Srinidhi182">
+            <img src="https://avatars.githubusercontent.com/u/92366628?v=4" width="100;" alt="Rajshekar723"/>
+            <br />
+            <sub><b>Srinidhi.R</b></sub>
+        </a>
+    </td>
 </tr>
 </table>
