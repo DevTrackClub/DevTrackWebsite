@@ -54,6 +54,7 @@ Congratulation! You just made your first pull request and if it gets merged, you
 
 # Our Contributors 🤩👩‍💻👨‍💻
 Kudos to all our contributors. This wouldn't be be possible without you guys. 🎉👏
+
 <!-- readme: contributors -start -->
 <table>
 <tr>
@@ -101,3 +102,4 @@ Kudos to all our contributors. This wouldn't be be possible without you guys. �
     </td>
 </tr>
 </table>
+<!-- readme: contributors -end -->
