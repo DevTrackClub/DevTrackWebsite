@@ -41,7 +41,7 @@
 
 ## Here are the steps to Make contribute 👣
 
-- [x] Take a look at [Contributing Guide](https://github.com/DevTrackClub/DevTrackWebsite/CONTRIBUTING.md) (Necessary)
+- [x] Take a look at [Contributing Guide](https://github.com/DevTrackClub/DevTrackWebsite/blob/main/CONTRIBUTING.md) (Necessary)
 - [x] Look out the issue section for any new issues. If you can do it, then ask to assign it to you. (**Note:** It's **goodToFirst**)
 - [x] If you find a bug or you wanna enhance the code then create an issue for making any change to code. Once the issue is approved you can make a change.
 - [x] Pull latest change from upstream branch before starting the changing code.
