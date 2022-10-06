@@ -445,7 +445,6 @@ h1::before {
   /* SONAL CSS */
  footer{
     background: transparent;
-  
    }
    .container-fluid{
     font-family: 'Baloo Bhai 2', cursive;
@@ -534,7 +533,6 @@ h1::before {
     align-items: center;
     padding: 40px 0;
    }
-
   .so {
        margin: 0;
        padding: 0;
@@ -542,18 +540,23 @@ h1::before {
        font-family: 'Poppins', sans-serif;
      }
      .so .wrapper{
-       padding-left: 625px;
+       
        overflow:auto;
        background: transparent;
   
        padding-top: 50px;
        padding-bottom: 50px;
      }
+     .wrapper{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+     }
      .wrapper .button{
        display: inline-block;
        height: 60px;
        width: 60px;
-       float: left;
        margin: 0 5px;
        overflow: hidden;
        background:rgba(255, 255, 255, .15);
