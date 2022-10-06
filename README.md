@@ -104,7 +104,14 @@ Kudos to all our contributors. This wouldn't be be possible without you guys. ðŸ
         <a href="https://github.com/Issac5693">
             <img src="https://avatars.githubusercontent.com/u/88505266?v=4" width="100;" alt="Issac Martin"/>
             <br />
-            <sub><b>Isaac Martin.S</b></sub>
+            <sub><b>Isaac Martin</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/muditchoudhary">
+            <img src="https://avatars.githubusercontent.com/u/74391865?v=4" width="100;" alt="Mudit Choudhary"/>
+            <br />
+            <sub><b>Mudit Choudhary</b></sub>
         </a>
     </td>
 </tr>
