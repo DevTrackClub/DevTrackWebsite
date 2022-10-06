@@ -37,9 +37,9 @@
 * If you find a bug or you can enhance the existing code then open a issue and the following.
   1. What's the problem with the existing code. (necessary screenshot along with it could do much better)
   2. What are you planning to do.
-* Once done, you can follow the instruction to do a pull request.
+* Once done, you can follow these [instructions](https://github.com/DevTrackClub/DevTrackWebsite/blob/main/GITHUB.MD) to do a pull request (Important).
 
-## Here are the steps to Make contribute 👣
+## Here are the steps to make a contribution 👣
 
 - [x] Take a look at [Contributing Guide](https://github.com/DevTrackClub/DevTrackWebsite/blob/main/CONTRIBUTING.md) (Necessary)
 - [x] Look out the issue section for any new issues. If you can do it, then ask to assign it to you. (**Note:** It's **goodToFirst**)
