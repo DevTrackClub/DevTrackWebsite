@@ -28,7 +28,7 @@
 ## Hacktoberfest 2022 Update
 
 **See full details and guidelines on**
-  * [Hacktober cheasheat](https://github.com/DevTrackClub/DevTrackWebsite/HACKTOBERFEST.md) 
+  * [Hacktober cheasheat](https://github.com/DevTrackClub/DevTrackWebsite/blob/main/HACTOBERFEST.md) 
   * [Official website](https://hacktoberfest.digitalocean.com/)
   
 <h1 align=center> How to Contribute 🤔 </h1>
