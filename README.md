@@ -48,6 +48,10 @@
 - [x] Mention what you have changed with relevant **screenshots**.
 - [x] Add your **issue number** along with your pull request.
 
+# Congratulations!🤩🥳
+
+Congratulation! You just made your first pull request and if it gets merged, you can view it using this link [https://hactoberfest.com](https://hactoberfest.com)!
+
 # Our Contributors 🤩👩‍💻👨‍💻
 Kudos to all our contributors. This wouldn't be be possible without you guys. 🎉👏
 <!-- readme: contributors -start -->
