@@ -211,3 +211,29 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
 		}
 	});
 });
+
+// Go top btn
+function goTopBtn(btn){
+	const scrollBtn = document.querySelector(btn);
+
+	window.addEventListener("scroll", e =>{
+		let scrollTop = window.pageYOffset||document.scrollTop;
+		if(scrollTop > 800){
+			scrollBtn.classList.remove("btn-hidden");
+		} else{
+			scrollBtn.classList.add("btn-hidden");
+		}
+	})
+	document.addEventListener("click", e =>{
+		if (e.target.matches(btn)) {
+			window.scrollTo({
+				behavior:"smooth",
+				top:0,
+			})
+		}
+	})
+}
+
+document.addEventListener("DOMContentLoaded", (e)=>{
+	goTopBtn(".btn-go-top");
+})
