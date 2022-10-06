@@ -60,6 +60,6 @@ Kudos to all our contributors. This wouldn't be be possible without you guys. ðŸ
 <!-- Using https://contrib.rocks here-->
 
 <a href="https://github.com/DevTrackClub/DevTrackWebsite/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DevTrackClub/DevTrackWebsite&columns=6" />
+  <img src="https://contrib.rocks/image?repo=DevTrackClub/DevTrackWebsite" />
 </a>
 <!-- readme: contributors -end -->
