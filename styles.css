@@ -674,3 +674,27 @@ h1::before {
   visibility: hidden;
   opacity: 0;
 }
+
+@keyframes footer-heart-beat {
+  0% {
+    transform: scale(1);
+  }
+  69% {
+    transform: scale(1.23);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.footer-heart{
+  display: inline-block;
+}
+
+.footer-heart:hover{
+  animation-name: footer-heart-beat;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  cursor: default;
+}
