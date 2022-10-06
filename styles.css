@@ -209,7 +209,7 @@ h1::before {
     font-size: 0.85em;
     color: fff;
     margin-bottom: 10px;
-    line-height: 1em;
+    line-height: 1;
     word-wrap: normal;
     font-family: Georgia;
      position: relative;
@@ -258,7 +258,7 @@ h1::before {
  .container .box{
     position: relative; 
     width: 520px;
-    height: 700px;
+    height: 900px;
     color: #fff;
     background: #111;
     display: flex;
