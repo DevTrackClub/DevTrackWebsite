@@ -666,34 +666,4 @@ h1::before {
         }
       
     }
-<<<<<<< HEAD
-  
-=======
-  
-/* Go top btn styles */
 
-.btn-go-top{
-  position: fixed;
-  bottom: 2vh;
-  right: 2vh;
-  width: 3.8rem;
-  height: 3.8rem;
-  font-size: 3rem;
-  font-weight: bold;
-  border: 0;
-  outline: 0;
-  background: none;
-  color: white;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-
-.btn-go-top:hover{
-  color: rgb(67, 20, 184);
-}
-
-.btn-hidden{
-  visibility: hidden;
-  opacity: 0;
-}
->>>>>>> 37028ae90ba8d368e866d7c9a789521fe6e0bfc6
