@@ -52,7 +52,7 @@
 
 Congratulation! You just made your first pull request and if it gets merged, you can view it using this link [https://hactoberfest.com](https://hactoberfest.com)!
 
-# Our Contributors 🤩👩‍💻👨‍💻
+# Contributors 🤩👩‍💻👨‍💻
 Kudos to all our contributors. This wouldn't be be possible without you guys. 🎉👏
 
 <!-- readme: contributors -start -->
@@ -100,7 +100,17 @@ Kudos to all our contributors. This wouldn't be be possible without you guys. �
             <sub><b>Samuel Jonathan</b></sub>
         </a>
     </td>
-    <td align="center">
+   
+</tr>
+<tr>
+<td align="center">
+        <a href="https://github.com/PGautam27">
+            <img src="https://avatars.githubusercontent.com/u/92343715?v=4" width="100;" alt="PGautam27"/>
+            <br />
+            <sub><b>P Gautam</b></sub>
+        </a>
+    </td>
+ <td align="center">
         <a href="https://github.com/Issac5693">
             <img src="https://avatars.githubusercontent.com/u/88505266?v=4" width="100;" alt="Issac Martin"/>
             <br />
@@ -112,15 +122,6 @@ Kudos to all our contributors. This wouldn't be be possible without you guys. �
             <img src="https://avatars.githubusercontent.com/u/74391865?v=4" width="100;" alt="Mudit Choudhary"/>
             <br />
             <sub><b>Mudit Choudhary</b></sub>
-        </a>
-    </td>
-</tr>
-<tr>
-<td align="center">
-        <a href="https://github.com/PGautam27">
-            <img src="https://avatars.githubusercontent.com/u/92343715?v=4" width="100;" alt="PGautam27"/>
-            <br />
-            <sub><b>P Gautam</b></sub>
         </a>
     </td>
 </tr>
