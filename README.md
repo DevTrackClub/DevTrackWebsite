@@ -52,7 +52,7 @@
 
 Congratulation! You just made your first pull request and if it gets merged, you can view it using this link [https://hactoberfest.com](https://hactoberfest.com)!
 
-# Our Contributors 🤩👩‍💻👨‍💻
+# Contributors 🤩👩‍💻👨‍💻
 Kudos to all our contributors. This wouldn't be be possible without you guys. 🎉👏
 
 <!-- readme: contributors -start -->
