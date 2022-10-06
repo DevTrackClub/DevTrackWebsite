@@ -47,3 +47,6 @@
 - [x] Pull latest change from upstream branch before starting the changing code.
 - [x] Mention what you have changed with relevant **screenshots**.
 - [x] Add your **issue number** along with your pull request.
+
+# Our Contributors 🤩👩‍💻👨‍💻
+Kudos to all our contributors. This wouldn't be be possible without you guys. 🎉👏
