@@ -553,7 +553,7 @@ h1::before {
        display: inline-block;
        height: 60px;
        width: 60px;
-       /* float: left; */
+       float: left;
        margin: 0 5px;
        overflow: hidden;
        background:rgba(255, 255, 255, .15);
@@ -651,50 +651,50 @@ h1::before {
 /* Go top btn styles */
 
 .btn-go-top{
-    position: fixed;
-    bottom: 2vh;
-    right: 2vh;
-    width: 3.8rem;
-    height: 3.8rem;
-    font-size: 3rem;
-    font-weight: bold;
-    border: 0;
-    outline: 0;
-    background: none;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease-out;
+  position: fixed;
+  bottom: 2vh;
+  right: 2vh;
+  width: 3.8rem;
+  height: 3.8rem;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
 }
 
 .btn-go-top:hover{
-    color: rgb(67, 20, 184);
+  color: rgb(67, 20, 184);
 }
 
 .btn-hidden{
-    visibility: hidden;
-    opacity: 0;
+  visibility: hidden;
+  opacity: 0;
 }
 
 @keyframes footer-heart-beat {
-    0% {
-      transform: scale(1);
-    }
-    69% {
-      transform: scale(1.23);
-    }
-    100% {
-      transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
+  69% {
+    transform: scale(1.23);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .footer-heart{
-    display: inline-block;
+  display: inline-block;
 }
 
 .footer-heart:hover{
-    animation-name: footer-heart-beat;
-    animation-duration: 800ms;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    cursor: default;
+  animation-name: footer-heart-beat;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  cursor: default;
 }
