@@ -553,7 +553,7 @@ h1::before {
        display: inline-block;
        height: 60px;
        width: 60px;
-       float: left;
+       /* float: left; */
        margin: 0 5px;
        overflow: hidden;
        background:rgba(255, 255, 255, .15);
@@ -670,11 +670,6 @@ h1::before {
   color: rgb(67, 20, 184);
 }
 
-.btn-hidden{
-  visibility: hidden;
-  opacity: 0;
-}
-
 @keyframes footer-heart-beat {
   0% {
     transform: scale(1);
@@ -697,4 +692,9 @@ h1::before {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   cursor: default;
+}
+
+.btn-hidden{
+  visibility: hidden;
+  opacity: 0;
 }
