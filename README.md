@@ -56,10 +56,4 @@ Congratulation! You just made your first pull request and if it gets merged, you
 Kudos to all our contributors. This wouldn't be be possible without you guys. 🎉👏
 
 <!-- readme: contributors -start -->
-
-<!-- Using https://contrib.rocks here-->
-
-<a href="https://github.com/DevTrackClub/DevTrackWebsite/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DevTrackClub/DevTrackWebsite" />
-</a>
 <!-- readme: contributors -end -->
