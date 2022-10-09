@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Finlandica:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,500,300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @property --rotate {
   syntax: "<angle>";
   initial-value: 132deg;
@@ -556,7 +557,7 @@ h1::before {
      overflow: hidden;
      max-height: 0; /*height of answers*/
      transition: all .5s ease-in;
-   
+     
    }
   .containersh{
     position: relative;
@@ -677,6 +678,7 @@ h1::before {
         }
       
     }
+
 
 
 
@@ -844,4 +846,8 @@ h1::before {
   visibility: hidden;
   opacity: 0;
 }
+.FaqAns{
+  font-family: 'Quicksand', sans-serif;
+}
+
 
