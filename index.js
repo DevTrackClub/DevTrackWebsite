@@ -237,3 +237,46 @@ function goTopBtn(btn){
 document.addEventListener("DOMContentLoaded", (e)=>{
 	goTopBtn(".btn-go-top");
 })
+
+let alreadyOnCard = false;
+let isPlaying = false;
+let lastCardFront = true;
+let lastCard;
+
+function flip(){
+    if(isPlaying) return;
+    let elements = document.querySelectorAll(":hover");
+    for(let element of elements) if (element.classList.contains("card-flip")){
+        if(isPlaying || alreadyOnCard) return;
+        isPlaying = true;
+        alreadyOnCard = true;
+        anime({
+            targets: element,
+            rotateY: {value: '+=180', delay: 200},
+            easing: 'easeInOutSine',
+            duration: 400,
+            complete: function(anim){
+            isPlaying = false;
+            lastCardFront=false;
+            lastCard=element;
+            }
+        });
+        return;
+    }
+    alreadyOnCard = false;
+    if(!lastCardFront && !isPlaying){
+        isPlaying=true;
+        anime({
+            targets: lastCard,
+            rotateY: {value: '+=180', delay: 200},
+            easing: 'easeInOutSine',
+            duration: 400,
+            complete: function(anim){
+            isPlaying = false;
+            lastCardFront = true;
+            }
+        });
+    }
+}
+
+document.addEventListener('mousemove', flip);

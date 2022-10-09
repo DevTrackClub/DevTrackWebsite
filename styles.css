@@ -702,11 +702,3 @@ p {
   visibility: hidden;
   opacity: 0;
 }
-
-/* Media Query */
-@media screen and (max-width: 510px) {
-  .container .box {
-    padding-top: 40px;
-    height: 100%;
-  }
-}
