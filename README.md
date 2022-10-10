@@ -50,7 +50,7 @@
 
 # Congratulations!🤩🥳
 
-Congratulation! You just made your first pull request and if it gets merged, you can view it using this link [https://hacktoberfest.com](https://hacktoberfest.com)
+Congratulation! You just made your first pull request and if it gets merged, you can view it using this link [https://hacktoberfest.com](https://hacktoberfest.com)!
 
 # Contributors 🤩👩‍💻👨‍💻
 Kudos to all our contributors. This wouldn't be be possible without you guys. 🎉👏
