@@ -1821,3 +1821,18 @@ h1::before {
 .FaqAns{
   font-family: 'Quicksand', sans-serif;
 }
+
+
+
+/* Media Query */
+@media screen and (max-width: 510px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+  
+  .container .box {
+    padding-top: 40px;
+    height: 100%;
+  }
+}
