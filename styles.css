@@ -1160,7 +1160,7 @@ h1::before {
     content: "2022";
     position: absolute;
     color: rgba(255, 255, 255, 0.146);
-    font-size: 150px;
+    font-size: 8rem;
     margin-top: -50px;
     left: calc(50% - 160px);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
