@@ -218,7 +218,9 @@ h1::before {
    padding: 10px 0px;
    align-content: center;
  }
+ /* text aligment issue fix */
  .container .box .content h2{
+  white-space: nowrap;
   font-size: 0.85em;
   font-family: 'Poppins', 'Roboto', Nunito;
 
