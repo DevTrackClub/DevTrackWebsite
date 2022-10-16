@@ -578,7 +578,7 @@ h1::before {
        padding-left: 625px;
        overflow:auto;
        background: transparent;
-  
+
        padding-top: 50px;
        padding-bottom: 50px;
      }
@@ -1832,9 +1832,24 @@ h1::before {
   h1 {
     font-size: 3rem;
   }
-  
+
+  h2{
+    font-size:1rem;
+    width:calc(100% + 20px);
+  }
+
   .container .box {
     padding-top: 40px;
     height: 100%;
   }
+
+  .so .wrapper{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+
 }
