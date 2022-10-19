@@ -736,14 +736,9 @@ h1::before {
   opacity: 0;
 }
 
-<--flexcard-->
 
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: consolas;
-}
+
+
 
 .containerms body
 {
@@ -1489,12 +1484,12 @@ h1::before {
      margin: 10px 0;
      align-items: center;
      text-align: left;
+     gap:3px;
    }
    .accordion .icon{
      margin: 0 15px 0 0;
      width: 50px; 
      border-radius: 50%;
-     float: left;
      background:  8px 5px white;
    }
    .accordion .active .icon{
@@ -1504,7 +1499,7 @@ h1::before {
      content: '\002B'; /*+ sign*/
      font-weight: 1000;
      font-size: 30px;
-     margin-left: 15px;/*placement of icon inside the white circle*/
+     margin-left: 13.5px;/*placement of icon inside the white circle*/
      transition: all .5s ease;
      color: black;
    }
@@ -1851,5 +1846,11 @@ h1::before {
     justify-content:center;
   }
 
-
+ 
+  .accordion h5{
+    max-width: 210px;
+    width:100%;
+    font-size: 19px; /*font size of questions*/
+  }
+ 
 }
