@@ -216,112 +216,6 @@ h1::before {
 }
 
 
-/* SRINIDHI CSS */
-*{
-  /* margin: 0;/ */
-  padding: 0;
-  box-sizing: border-box;
-  font-family:'Franklin Gothic Medium';
-}
-
-
-body{
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #111;
-  background: linear-gradient(to right, #0b0028, #2e012a);
-}
-
-.container{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 0;
-  flex-wrap: wrap;
-}
-.container .box{
-  position: relative; 
-  width: 520px;
-  height: 700px;
-  color: #fff;
-  background: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 30px;
-  transition: 0.5s;    
-}
-.container .box:hover
-{
-      transform: translateY(-15px);
-}
-.container .box::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg,#be93d4,#710193);
-}
-.container .box::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg,#be93d4,#710193);
-  filter: blur(15px);
-}
-.container .box:nth-child(2)::before,
-.container .box:nth-child(2)::after
-{
-  background: linear-gradient(315deg,#be93d4,#8b008b);
-}
-.container .box span{
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  background: rgba(0,0,0,0.6);
-  z-index: 2;
-}
-container .box span::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  pointer-events:none;
-}
-.container .box .content
-{
-  position: relative;
-  z-index: 10;
-  padding: 20px 40px;
-  align-content: center;
-}
-.content .box .content h2
-{
-  font-size: 4em;
-  color: #fff;
-  margin-bottom: 50px;
-  padding-top: 10px;
-}
-.container .box .content p{
-  font-size: 1.1em;
-  color: fff;
-  margin-bottom: 30px;
-  line-height: 1.4em;
-  word-wrap: normal;
-  font-family: Georgia;
-}
-
  /* CSS for footer heart */
 
  @keyframes footer-heart-beat {
@@ -978,7 +872,7 @@ footer{
   position: absolute;
   top:0px;
   left:0px;
-  height: 100%;
+  height: 70px;
   width:100%;
   z-index: -1;
   opacity: 0.7;
@@ -986,7 +880,7 @@ footer{
 
 .navbar ul{
   display: flex;
-  font-family: 'Baloo Bhai', cursive;
+  margin-top: 20px;
 }
 
 .navbar > ul > li {
@@ -1004,4 +898,185 @@ footer{
 
 html {
   scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width: 450px) {
+  .navbar > ul > li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.85rem;
+    margin: 0px 15px;
+  }
+
+  .navbar ul{
+    display: flex;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .navbar > ul > li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    margin: 0px 15px;
+  }
+
+}
+
+/* SRINIDHI CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium';
+}
+body{
+
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #111;
+  background: linear-gradient(to right, #0b0028, #2e012a);
+
+}
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+.container .box{
+  position: relative; 
+  width: 520px;
+  height: 700px;
+  color: #fff;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+  transition: 0.5s;    
+}
+.container .box:hover
+{
+      transform: translateY(-15px);
+}
+.container .box::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg,#be93d4,#710193);
+}
+.container .box::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg,#be93d4,#710193);
+  filter: blur(15px);
+}
+.container .box:nth-child(2)::before,
+.container .box:nth-child(2)::after
+{
+  background: linear-gradient(315deg,#be93d4,#8b008b);
+}
+.container .box span{
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: rgba(0,0,0,0.6);
+  z-index: 2;
+}
+container .box span::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  pointer-events:none;
+}
+.container .box .content
+{
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+  align-content: center;
+}
+.content .box .content h2
+{
+  font-size: 4em;
+  color: #fff;
+  margin-bottom: 50px;
+  padding-top: 10px;
+}
+.container .box .content p{
+  font-size: 1.1em;
+  color: fff;
+  margin-bottom: 30px;
+  line-height: 1.4em;
+  word-wrap: normal;
+  font-family: Georgia;
+}
+
+/* CSS for footer heart */
+
+
+@media only screen and (max-width:1062px){
+
+   .so .wrapper{
+     padding-left: 25%;
+     overflow:auto;
+     padding-top: 50px;
+     padding-bottom: 50px;
+   }
+ 
+}
+
+
+/* Media Query */
+@media screen and (max-width: 510px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size:1rem;
+    width:calc(100% + 20px);
+  }
+
+  .container .box {
+    padding-top: 40px;
+    height: 100%;
+  }
+
+  .so .wrapper{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+ 
+  .accordion h5{
+    max-width: 210px;
+    width:100%;
+    font-size: 19px; /*font size of questions*/
+  }
+ 
 }
