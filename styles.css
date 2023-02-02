@@ -80,7 +80,7 @@ h1 {
 }
 
 h1::before {
-    content: "2022";
+    content: "2023";
     position: absolute;
     color: rgba(255, 255, 255, 0.146);
     font-size: 150px;
@@ -185,7 +185,7 @@ nav {
 }
 
 h1::before {
-    content: "2022";
+    content: "2023";
     position: absolute;
     color: rgba(255, 255, 255, 0.146);
     font-size: 150px;
@@ -1049,7 +1049,7 @@ h1 {
 }
 
 h1::before {
-    content: "2022";
+    content: "2023";
     position: absolute;
     color: rgba(255, 255, 255, 0.146);
     font-size: 150px;
@@ -1154,7 +1154,7 @@ nav {
 }
 
 h1::before {
-    content: "2022";
+    content: "2023";
     position: absolute;
     color: rgba(255, 255, 255, 0.146);
     font-size: 8rem;
