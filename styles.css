@@ -573,9 +573,11 @@ h1::before {
        padding: 0;
        box-sizing: border-box;
        font-family: 'Poppins', sans-serif;
+       display: flex;
+       justify-content: center;
      }
      .so .wrapper{
-       padding-left: 625px;
+       
        overflow:auto;
        background: transparent;
 
@@ -673,7 +675,6 @@ h1::before {
    @media only screen and (max-width:1062px){
 
         .so .wrapper{
-          padding-left: 25%;
           overflow:auto;
           padding-top: 50px;
           padding-bottom: 50px;
@@ -1540,9 +1541,10 @@ h1::before {
        padding: 0;
        box-sizing: border-box;
        font-family: 'Poppins', sans-serif;
+       display: flex;
+       justify-content: center;
      }
      .so .wrapper{
-       padding-left: 625px;
        overflow:auto;
        background: transparent;
   
@@ -1639,8 +1641,7 @@ h1::before {
      }
    @media only screen and (max-width:1062px){
 
-        .so .wrapper{
-          padding-left: 25%;
+        .so .wrapper {
           overflow:auto;
           padding-top: 50px;
           padding-bottom: 50px;
